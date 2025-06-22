@@ -1,0 +1,271 @@
+# Jekyll Configuration for GitHub Pages
+# Minecraft Education Offline Setup Assistant Documentation
+
+# Site Settings
+title: "Minecraft Education Offline Setup Assistant"
+description: "The ultimate solution for deploying Minecraft Education Edition in offline school environments with zero internet dependency. Perfect for schools, teachers, and students worldwide."
+url: "https://minecraft-education-offline-free.github.io"
+baseurl: "/minecraft-education-offline-setup-assistant"
+
+# SEO & Social Media
+author: "Minecraft Education Offline Team"
+logo: "/assets/images/logo.png"
+twitter:
+  username: MinecraftEduOff
+  card: summary_large_image
+facebook:
+  app_id: # Add Facebook App ID if needed
+  publisher: # Add Facebook Page URL if needed
+social:
+  name: "Minecraft Education Offline"
+  links:
+    - https://twitter.com/MinecraftEduOff
+    - https://github.com/Minecraft-Education-Offline-Free
+    - https://discord.gg/minecraft-education-offline
+
+# Repository Information
+repository: "Minecraft-Education-Offline-Free/minecraft-education-offline-setup-assistant"
+github:
+  repository_url: "https://github.com/Minecraft-Education-Offline-Free/minecraft-education-offline-setup-assistant"
+  repository_nwo: "Minecraft-Education-Offline-Free/minecraft-education-offline-setup-assistant"
+
+# Theme & Appearance
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-relative-links
+
+# SEO Configuration
+lang: en_US
+timezone: UTC
+
+# Google Analytics (replace with your tracking ID)
+google_analytics: # G-XXXXXXXXXX
+
+# Search Engine Optimization
+seo:
+  type: Organization
+  name: "Minecraft Education Offline"
+  url: "https://minecraft-education-offline-free.github.io"
+  logo: "https://minecraft-education-offline-free.github.io/assets/images/logo.png"
+  social:
+    - https://twitter.com/MinecraftEduOff
+    - https://github.com/Minecraft-Education-Offline-Free
+
+# Navigation Menu
+header_pages:
+  - getting-started.md
+  - lessons/index.md
+  - installation.md
+  - faq.md
+  - support.md
+
+# Footer Links
+footer_links:
+  - title: "Documentation"
+    links:
+      - title: "Getting Started"
+        url: "/getting-started"
+      - title: "Installation Guide"
+        url: "/installation"
+      - title: "Troubleshooting"
+        url: "/troubleshooting"
+      - title: "FAQ"
+        url: "/faq"
+  - title: "Community"
+    links:
+      - title: "Discord Server"
+        url: "https://discord.gg/minecraft-education-offline"
+      - title: "GitHub Issues"
+        url: "https://github.com/Minecraft-Education-Offline-Free/minecraft-education-offline-setup-assistant/issues"
+      - title: "Discussions"
+        url: "https://github.com/Minecraft-Education-Offline-Free/minecraft-education-offline-setup-assistant/discussions"
+  - title: "Resources"
+    links:
+      - title: "Lesson Library"
+        url: "/lessons"
+      - title: "Best Practices"
+        url: "/best-practices"
+      - title: "Security Guide"
+        url: "/security"
+      - title: "API Reference"
+        url: "/api"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  lessons:
+    output: true
+    permalink: /:collection/:name/
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Default Front Matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Minecraft Education Offline Team"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "lessons"
+    values:
+      layout: "lesson"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+
+# Educational Metadata
+educational:
+  target_audience:
+    - "K-12 Teachers"
+    - "IT Administrators"
+    - "Students"
+    - "Educational Technology Coordinators"
+  subjects:
+    - "Science"
+    - "Mathematics"
+    - "History"
+    - "Computer Science"
+    - "Art"
+    - "Language Arts"
+  standards:
+    - "NGSS"
+    - "Common Core"
+    - "CSTA"
+    - "ISTE"
+  grade_levels:
+    - "Elementary (K-5)"
+    - "Middle School (6-8)"
+    - "High School (9-12)"
+
+# Features & Benefits
+features:
+  - "Complete offline operation"
+  - "No Microsoft account required"
+  - "50+ educational activities"
+  - "Multi-platform support"
+  - "FERPA compliant"
+  - "Bulk deployment tools"
+  - "Progress tracking"
+  - "Curriculum aligned"
+
+# Technical Specifications
+technical:
+  platforms:
+    - "Windows 10/11"
+    - "macOS 10.14+"
+    - "Linux Ubuntu 18.04+"
+  requirements:
+    minimum_ram: "4GB"
+    recommended_ram: "8GB"
+    storage: "2-5GB"
+    graphics: "DirectX 11 compatible"
+  languages:
+    - "English"
+    - "Spanish"
+    - "French"
+    - "German"
+    - "Portuguese"
+    - "Chinese"
+
+# Contact Information
+contact:
+  support_email: "support@minecraft-education-offline.com"
+  general_email: "info@minecraft-education-offline.com"
+  discord: "https://discord.gg/minecraft-education-offline"
+  twitter: "https://twitter.com/MinecraftEduOff"
+
+# Exclude from Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - .gitignore
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - SECURITY.md
+  - CODE_OF_CONDUCT.md
+  - CHANGELOG.md
+
+# Include Additional Files
+include:
+  - _pages
+  - _redirects
+  - .well-known
+
+# Sass Configuration
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Liquid Configuration
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# RSS Feed
+feed:
+  categories:
+    - education
+    - minecraft
+    - teaching
+    - technology
+  excerpt_only: true
+
+# Sitemap
+sitemap:
+  priority: 0.8
+  changefreq: 'weekly'
+  lastmod: 2024-01-15
+
+# Performance Optimization
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: development
+
+# Development Settings
+livereload: true
+incremental: true
+
+# Future Posts
+future: false
+show_drafts: false
+unpublished: false 
