@@ -48,6 +48,10 @@
 
 ## 📸 Screenshots & Media
 
+### Lesson Library
+![Lesson Library](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2Jr3kzoLAnXehStvkfQFWtN_IAiwVBVZZA&s)
+*Access classroom content offline*
+
 ### Classroom Setup
 ![Classroom Setup](https://i.imgur.com/classroom-setup.png)
 *Easy deployment across multiple student computers*
