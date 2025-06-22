@@ -7,7 +7,7 @@
 
 > **🏫 The ultimate solution for deploying Minecraft Education Edition in offline school environments with zero internet dependency.**
 
-![Minecraft Education Setup Banner](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+![Lesson Library](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2Jr3kzoLAnXehStvkfQFWtN_IAiwVBVZZA&s)
 
 ## 🎯 Quick Download
 
@@ -48,21 +48,8 @@
 
 ## 📸 Screenshots & Media
 
-### Lesson Library
 ![Lesson Library](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2Jr3kzoLAnXehStvkfQFWtN_IAiwVBVZZA&s)
-*Access classroom content offline*
-
-### Classroom Setup
-![Classroom Setup](https://i.imgur.com/classroom-setup.png)
-*Easy deployment across multiple student computers*
-
-### Educational Content
-![Chemistry Lab](https://i.imgur.com/chemistry-lab.png)
-*Interactive chemistry experiments and learning*
-
-### Coding Environment
-![Code Builder](https://i.imgur.com/code-builder.png)
-*Visual programming environment for students*
+*Access classroom content offline - Interactive educational environments ready for students*
 
 ## 🚀 Quick Setup Guide
 
