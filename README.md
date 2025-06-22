@@ -46,10 +46,7 @@
 - 🎯 **Classroom Management**: Student progress tracking and assignment tools
 - 📊 **Usage Analytics**: Monitor student engagement and learning outcomes
 
-## 📸 Screenshots & Media
 
-![Lesson Library](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2Jr3kzoLAnXehStvkfQFWtN_IAiwVBVZZA&s)
-*Access classroom content offline - Interactive educational environments ready for students*
 
 ## 🚀 Quick Setup Guide
 
